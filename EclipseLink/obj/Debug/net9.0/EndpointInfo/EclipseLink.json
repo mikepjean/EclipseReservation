@@ -271,17 +271,17 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/User"
+                "$ref": "#/components/schemas/RegisterUserRequest"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/User"
+                "$ref": "#/components/schemas/RegisterUserRequest"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/User"
+                "$ref": "#/components/schemas/RegisterUserRequest"
               }
             }
           }
@@ -415,6 +415,27 @@
         },
         "additionalProperties": false
       },
+      "RegisterUserRequest": {
+        "type": "object",
+        "properties": {
+          "firstName": {
+            "type": "string",
+            "nullable": true
+          },
+          "lastName": {
+            "type": "string",
+            "nullable": true
+          },
+          "username": {
+            "type": "string",
+            "nullable": true
+          },
+          "receiveNotifications": {
+            "type": "boolean"
+          }
+        },
+        "additionalProperties": false
+      },
       "User": {
         "type": "object",
         "properties": {
@@ -443,6 +464,10 @@
       "VisibilityLocation": {
         "type": "object",
         "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
           "location": {
             "type": "string",
             "nullable": true,
@@ -460,7 +485,7 @@
     "securitySchemes": {
       "Bearer": {
         "type": "http",
-        "description": "Enter 'token text' input below.\n\nExample: 'abc123xyz'",
+        "description": "Enter 'token text' input below.\n\nExample: abc123xyz",
         "scheme": "Bearer",
         "bearerFormat": "JWT"
       }

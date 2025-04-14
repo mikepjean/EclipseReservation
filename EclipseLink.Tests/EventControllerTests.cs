@@ -1,4 +1,4 @@
-using EclipseLink.Event;
+using EclipseLink.EventManagement;
 using Microsoft.AspNetCore.Mvc;
 using Moq;
 using Xunit;
@@ -20,7 +20,7 @@ namespace EclipseLink.Tests
         public void Get_ShouldReturnEvent_WhenEventExists()
         {
             // Arrange
-            var eventObj = new EclipseLink.Event.Event(1) { Name = "Test Event" };
+            var eventObj = new EclipseLink.EventManagement.Event(1) { Name = "Test Event" };
             _mockEventStore.Setup(store => store.Get(1)).Returns(eventObj);
 
             // Act
@@ -36,7 +36,7 @@ namespace EclipseLink.Tests
         public void Get_ShouldReturnNotFound_WhenEventDoesNotExist()
         {
             // Arrange
-            _mockEventStore.Setup(store => store.Get(1)).Returns((EclipseLink.Event.Event?)null);
+            _mockEventStore.Setup(store => store.Get(1)).Returns((EclipseLink.EventManagement.Event?)null);
 
             // Act
             var result = _controller.Get(1) as NotFoundObjectResult;

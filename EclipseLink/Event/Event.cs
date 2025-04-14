@@ -1,10 +1,13 @@
 ﻿using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Linq;
 
-namespace EclipseLink.Event
+namespace EclipseLink.EventManagement
 {
     public class Event(int event_id)
     {
+        public Event() : this(-1) { }
+        [Key]
         public int Event_Id { get; set; } = event_id;
 
         public string? Name { get; set; }
@@ -20,9 +23,9 @@ namespace EclipseLink.Event
     public record EventItem(int Event_Id, string Name, string Description, DateTime Event_Date, IEnumerable<VisibilityLocation> Visibility_Locations, int RSVP_Count)
     {
         public virtual bool Equals(EventItem? obj) =>
-            obj != null && this.Event_Id.Equals(obj.Event_Id);
+            obj != null && Event_Id.Equals(obj.Event_Id);
         
         public override int GetHashCode() =>
-            this.Event_Id.GetHashCode();
+            Event_Id.GetHashCode();
     }
 }

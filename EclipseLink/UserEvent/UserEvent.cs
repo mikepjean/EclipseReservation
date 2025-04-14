@@ -1,8 +1,12 @@
-﻿namespace EclipseLink.UserEvent
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace EclipseLink.UserEventManagement
 {
     public class UserEvent
     {
+        public UserEvent(){ }
         // Unique identifier for the UserEvent relationship
+        [Key]
         public int UserEvent_Id { get; set; }
 
         // Foreign keys for the User and Event
@@ -13,11 +17,11 @@
         public string Status { get; set; }
 
         // Navigation properties for related User and Event
-        public EclipseLink.User.User User { get; set; }
-        public EclipseLink.Event.Event Event { get; set; }
+        public EclipseLink.UserManagement.User User { get; set; }
+        public EclipseLink.EventManagement.Event Event { get; set; }
 
         // Constructor to initialize the UserEvent with required fields
-        public UserEvent(int user_Id, int event_Id, string status, EclipseLink.User.User user, EclipseLink.Event.Event _event)
+        public UserEvent(int user_Id, int event_Id, string status, EclipseLink.UserManagement.User user, EclipseLink.EventManagement.Event _event)
         {
             User_Id = user_Id;
             Event_Id = event_Id;

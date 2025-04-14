@@ -1,6 +1,8 @@
-using EclipseLink.Event;
-using EclipseLink.User;
-using EclipseLink.UserEvent;
+using EclipseLink.Persistence;
+using Microsoft.EntityFrameworkCore;
+using EclipseLink.EventManagement;
+using EclipseLink.UserManagement;
+using EclipseLink.UserEventManagement;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.Extensions.DependencyInjection;
@@ -27,6 +29,8 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
         };
     });
 builder.Services.AddControllers();
+builder.Services.AddDbContext<ApplicationDbContext>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 //Using this for swagger browsing
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen(c =>

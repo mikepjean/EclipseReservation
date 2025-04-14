@@ -1,10 +1,10 @@
-using EclipseLink.Event;
-using EclipseLink.User;
+using EclipseLink.EventManagement;
+using EclipseLink.UserManagement;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
-namespace EclipseLink.UserEvent
+namespace EclipseLink.UserEventManagement
 {
     [Route("api/[controller]")]
     [ApiController]

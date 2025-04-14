@@ -1,6 +1,6 @@
-using EclipseLink.Event;
-using EclipseLink.User;
-using EclipseLink.UserEvent;
+using EclipseLink.EventManagement;
+using EclipseLink.UserManagement;
+using EclipseLink.UserEventManagement;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using System;

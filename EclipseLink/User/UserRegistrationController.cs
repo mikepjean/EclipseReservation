@@ -5,7 +5,7 @@ using Microsoft.IdentityModel.Tokens;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
-using EclipseLink.User;
+using EclipseLink.UserManagement;
 
 namespace EclipseLink
 {
@@ -48,18 +48,24 @@ namespace EclipseLink
 
         // Endpoint to create a new user and return a JWT token
         [HttpPost("register")]
-        public IActionResult RegisterUser([FromBody] EclipseLink.User.User user)
+        public IActionResult RegisterUser([FromBody] EclipseLink.UserManagement.RegisterUserRequest user)
         {
             if(_userStore == null)
             {
                 return BadRequest("User store is not initialized.");
             }
-            if (_userStore.GetUserById(user.User_Id) != null)
+            if (_userStore.GetUserByUserName(user.Username) != null)
             {
                 return BadRequest("User already exists.");
             }
-
-            _userStore.Save(user);
+            var _user = new User
+            {
+                FirstName = user.FirstName,
+                LastName = user.LastName,
+                Username = user.Username,
+                ReceiveNotifications = user.ReceiveNotifications
+            };
+            _userStore.Save(_user);
             var token = GenerateJwtToken(user.Username);
             return Ok(new { Token = token });
         }
@@ -67,7 +73,7 @@ namespace EclipseLink
         // Endpoint to update an existing user
         [Authorize]
         [HttpPut("update")]
-        public IActionResult UpdateUser([FromBody] EclipseLink.User.User user)
+        public IActionResult UpdateUser([FromBody] EclipseLink.UserManagement.User user)
         {
             var existingUser = _userStore.GetUserById(user.User_Id);
             if (existingUser == null)
@@ -82,7 +88,7 @@ namespace EclipseLink
         // Endpoint to delete a user by username
         [Authorize]
         [HttpDelete("delete/{User_Id}")]
-        public IActionResult DeleteUser([FromBody] EclipseLink.User.User user)
+        public IActionResult DeleteUser([FromBody] EclipseLink.UserManagement.User user)
         {
             if(user == null)
             {

@@ -1,4 +1,4 @@
-using EclipseLink.User;
+using EclipseLink.UserManagement;
 using Microsoft.Extensions.Configuration;
 using Microsoft.AspNetCore.Mvc;
 using Moq;
@@ -27,7 +27,7 @@ namespace EclipseLink.Tests
         public void Login_ShouldReturnToken_WhenCredentialsAreValid()
         {
             // Arrange
-            var user = new EclipseLink.User.User { User_Id = 1, Username = "johndoe" };
+            var user = new EclipseLink.UserManagement.User { User_Id = 1, Username = "johndoe" };
             _mockUserStore.Setup(store => store.GetUserById(1)).Returns(user);
 
             var loginRequest = new UserRegistrationController.LoginRequest
@@ -49,7 +49,7 @@ namespace EclipseLink.Tests
         public void Login_ShouldReturnUnauthorized_WhenCredentialsAreInvalid()
         {
             // Arrange
-            _mockUserStore.Setup(store => store.GetUserById(1)).Returns((EclipseLink.User.User?)null);
+            _mockUserStore.Setup(store => store.GetUserById(1)).Returns((EclipseLink.UserManagement.User?)null);
 
             var loginRequest = new UserRegistrationController.LoginRequest
             {

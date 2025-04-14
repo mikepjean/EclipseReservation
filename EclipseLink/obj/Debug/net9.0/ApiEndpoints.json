@@ -1,7 +1,7 @@
 [
   {
     "ContainingType": "Program\u002B\u003C\u003Ec",
-    "Method": "\u003C\u003CMain\u003E$\u003Eb__0_4",
+    "Method": "\u003C\u003CMain\u003E$\u003Eb__0_5",
     "RelativePath": "",
     "HttpMethod": "GET",
     "IsController": false,
@@ -34,7 +34,7 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "EclipseLink.UserEvent.UserEventController",
+    "ContainingType": "EclipseLink.UserEventManagement.UserEventController",
     "Method": "RSVP",
     "RelativePath": "api/UserEvent/RSVP",
     "HttpMethod": "POST",
@@ -64,7 +64,7 @@
     "Parameters": [
       {
         "Name": "user",
-        "Type": "EclipseLink.User.User",
+        "Type": "EclipseLink.UserManagement.User",
         "IsRequired": true
       },
       {
@@ -101,7 +101,7 @@
     "Parameters": [
       {
         "Name": "user",
-        "Type": "EclipseLink.User.User",
+        "Type": "EclipseLink.UserManagement.RegisterUserRequest",
         "IsRequired": true
       }
     ],
@@ -117,14 +117,14 @@
     "Parameters": [
       {
         "Name": "user",
-        "Type": "EclipseLink.User.User",
+        "Type": "EclipseLink.UserManagement.User",
         "IsRequired": true
       }
     ],
     "ReturnTypes": []
   },
   {
-    "ContainingType": "EclipseLink.Event.EventController",
+    "ContainingType": "EclipseLink.EventManagement.EventController",
     "Method": "Post",
     "RelativePath": "EclipseEvent",
     "HttpMethod": "POST",
@@ -133,14 +133,14 @@
     "Parameters": [
       {
         "Name": "newEvent",
-        "Type": "EclipseLink.Event.Event",
+        "Type": "EclipseLink.EventManagement.Event",
         "IsRequired": true
       }
     ],
     "ReturnTypes": []
   },
   {
-    "ContainingType": "EclipseLink.Event.EventController",
+    "ContainingType": "EclipseLink.EventManagement.EventController",
     "Method": "Get",
     "RelativePath": "EclipseEvent/{event_id}",
     "HttpMethod": "GET",
@@ -156,7 +156,7 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "EclipseLink.Event.EventController",
+    "ContainingType": "EclipseLink.EventManagement.EventController",
     "Method": "Put",
     "RelativePath": "EclipseEvent/{id}",
     "HttpMethod": "PUT",
@@ -170,14 +170,14 @@
       },
       {
         "Name": "updatedEvent",
-        "Type": "EclipseLink.Event.Event",
+        "Type": "EclipseLink.EventManagement.Event",
         "IsRequired": true
       }
     ],
     "ReturnTypes": []
   },
   {
-    "ContainingType": "EclipseLink.Event.EventController",
+    "ContainingType": "EclipseLink.EventManagement.EventController",
     "Method": "Delete",
     "RelativePath": "EclipseEvent/{id}",
     "HttpMethod": "DELETE",
@@ -193,7 +193,7 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "EclipseLink.Event.EventController",
+    "ContainingType": "EclipseLink.EventManagement.EventController",
     "Method": "DiscoverEvents",
     "RelativePath": "EclipseEvent/EventDiscovery",
     "HttpMethod": "GET",

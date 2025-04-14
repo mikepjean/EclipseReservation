@@ -1,6 +1,6 @@
-using EclipseLink.UserEvent;
-using EclipseLink.User;
-using EclipseLink.Event;
+using EclipseLink.UserEventManagement;
+using EclipseLink.UserManagement;
+using EclipseLink.EventManagement;
 using Microsoft.AspNetCore.Mvc;
 using Moq;
 using Xunit;
@@ -26,12 +26,12 @@ namespace EclipseLink.Tests
         public void RSVP_ShouldReturnOk_WhenRSVPIsSuccessful()
         {
             // Arrange
-            var user = new EclipseLink.User.User { User_Id = 1, Username = "johndoe" };
-            var eventObj = new EclipseLink.Event.Event(1) { Name = "Test Event" };
+            var user = new EclipseLink.UserManagement.User { User_Id = 1, Username = "johndoe" };
+            var eventObj = new EclipseLink.EventManagement.Event(1) { Name = "Test Event" };
 
             _mockUserStore.Setup(store => store.GetUserById(1)).Returns(user);
             _mockEventStore.Setup(store => store.Get(1)).Returns(eventObj);
-            _mockUserEventStore.Setup(store => store.Get(1)).Returns((EclipseLink.UserEvent.UserEvent?)null);
+            _mockUserEventStore.Setup(store => store.Get(1)).Returns((EclipseLink.UserEventManagement.UserEvent?)null);
 
             // Act
             var result = _controller.RSVP(1, 1) as OkObjectResult;
@@ -45,7 +45,7 @@ namespace EclipseLink.Tests
         public void RSVP_ShouldReturnNotFound_WhenUserDoesNotExist()
         {
             // Arrange
-            _mockUserStore.Setup(store => store.GetUserById(1)).Returns((EclipseLink.User.User?)null);
+            _mockUserStore.Setup(store => store.GetUserById(1)).Returns((EclipseLink.UserManagement.User?)null);
 
             // Act
             var result = _controller.RSVP(1, 1) as NotFoundObjectResult;

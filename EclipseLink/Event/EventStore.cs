@@ -1,6 +1,8 @@
-﻿using System.Collections.Generic;
+﻿using EclipseLink.Persistence;
+using EclipseLink.EventManagement;
+using System.Linq;
 
-namespace EclipseLink.Event
+namespace EclipseLink.EventManagement
 {
     public interface IEventStore
     {
@@ -11,33 +13,67 @@ namespace EclipseLink.Event
     }
     public class EventStore : IEventStore
     {
-        private static readonly Dictionary<int, Event> Database = new Dictionary<int, Event>();
+        private readonly ApplicationDbContext _context;
 
-        public Event Get(int event_id) =>
-            Database.ContainsKey(event_id) ? Database[event_id] : new Event(event_id);
-
-        public Event? DiscoverEvents(DateTime? date, string location)
+        public EventStore(ApplicationDbContext context)
         {
-            if (date == null || string.IsNullOrEmpty(location))
-            {
-                return null; // Handle null inputs gracefully
-            }
-
-            return Database.Values.FirstOrDefault(e =>
-                e.Event_Date.Date == date.Value.Date &&
-                e.Visibility_Locations != null && // Ensure Visibility_Locations is not null
-                e.Visibility_Locations.Any(v => v.Location == location));
+            _context = context;
         }
 
-        public void Save(Event _event) =>
-            Database[_event.Event_Id] = _event;
+        /// <summary>
+        /// Retrieves an Event by its unique ID.
+        /// </summary>
+        /// <param name="event_id">The unique ID of the Event.</param>
+        /// <returns>The Event object if found, otherwise null.</returns>
+        public Event Get(int event_id)
+        {
+            return _context.Events.Find(event_id);
+        }
+
+        /// <summary>
+        /// Discovers Events based on date and location.
+        /// </summary>
+        /// <param name="date">The date of the event.</param>
+        /// <param name="location">The location of the event.</param>
+        /// <returns>The matching Event object if found, otherwise null.</returns>
+        public Event? DiscoverEvents(DateTime? date, string location)
+        {
+            return _context.Events
+                .FirstOrDefault(e =>
+                    (!date.HasValue || e.Event_Date.Date == date.Value.Date) &&
+                    (string.IsNullOrEmpty(location) || e.Visibility_Locations.Any(v => v.Location == location)));
+        }
+
+        /// <summary>
+        /// Saves or updates an Event in the store.
+        /// </summary>
+        /// <param name="_event">The Event object to save.</param>
+        public void Save(Event _event)
+        {
+            if (_context.Events.Any(e => e.Event_Id == _event.Event_Id))
+            {
+                _context.Events.Update(_event);
+            }
+            else
+            {
+                _context.Events.Add(_event);
+            }
+            _context.SaveChanges();
+        }
+
+        /// <summary>
+        /// Deletes an Event by its unique ID.
+        /// </summary>
+        /// <param name="event_id">The unique ID of the Event to delete.</param>
         public void Delete(int event_id)
         {
-            if (Database.ContainsKey(event_id))
+            var eventObj = _context.Events.Find(event_id);
+            if (eventObj != null)
             {
-                Database.Remove(event_id);
+                _context.Events.Remove(eventObj);
+                _context.SaveChanges();
             }
         }
     }
-
 }
+
