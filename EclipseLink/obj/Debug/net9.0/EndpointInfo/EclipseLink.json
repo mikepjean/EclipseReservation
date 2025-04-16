@@ -87,17 +87,17 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/Event"
+                "$ref": "#/components/schemas/EventCreationRequest"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/Event"
+                "$ref": "#/components/schemas/EventCreationRequest"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/Event"
+                "$ref": "#/components/schemas/EventCreationRequest"
               }
             }
           }
@@ -375,6 +375,35 @@
             "type": "integer",
             "format": "int32"
           },
+          "name": {
+            "type": "string",
+            "nullable": true
+          },
+          "description": {
+            "type": "string",
+            "nullable": true
+          },
+          "event_Date": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "visibility_Locations": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/VisibilityLocation"
+            },
+            "nullable": true
+          },
+          "rsvP_Count": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      },
+      "EventCreationRequest": {
+        "type": "object",
+        "properties": {
           "name": {
             "type": "string",
             "nullable": true

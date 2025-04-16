@@ -26,7 +26,7 @@ namespace EclipseLink
         public IActionResult Login([FromBody] LoginRequest request)
         {
             // Validate user credentials
-            var user = _userStore.GetUserById(request.UserId);
+            var user = _userStore.GetUserByUserName(request.Username);
             if (user is not null && user.Username == request.Username) // Fix for CS0019 and CS1061
             {
                 // Generate JWT token

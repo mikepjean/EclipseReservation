@@ -30,7 +30,7 @@ namespace EclipseLink.EventManagement
         // Endpoint to add an Eclipse Event
         [Authorize]
         [HttpPost]
-        public IActionResult Post([FromBody] Event newEvent)
+        public IActionResult Post([FromBody] EventCreationRequest newEvent)
         {
             if (newEvent == null)
             {
@@ -39,7 +39,15 @@ namespace EclipseLink.EventManagement
 
             try
             {
-                eventStore.Save(newEvent);
+                Event _event = new Event
+                {
+                    Name = newEvent.Name,
+                    Description = newEvent.Description,
+                    Event_Date = newEvent.Event_Date,
+                    Visibility_Locations = newEvent.Visibility_Locations,
+                    RSVP_Count = 0 // Initialize RSVP count to 0
+                };
+                eventStore.Save(_event);
                 return Ok("Event created successfully.");
             }
             catch (Exception ex)

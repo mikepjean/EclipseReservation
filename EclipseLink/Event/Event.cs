@@ -1,5 +1,6 @@
 ﻿using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 
 namespace EclipseLink.EventManagement
@@ -8,7 +9,8 @@ namespace EclipseLink.EventManagement
     {
         public Event() : this(-1) { }
         [Key]
-        public int Event_Id { get; set; } = event_id;
+        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
+        public int Event_Id { get; set; }
 
         public string? Name { get; set; }
 

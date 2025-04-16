@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EclipseLink.Tests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b32fda5a4fa9a29fcf2f1d8564d33e5a44afab7a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+df799dac76e342a939da023143eef4fa2238e282")]
 [assembly: System.Reflection.AssemblyProductAttribute("EclipseLink.Tests")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EclipseLink.Tests")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
