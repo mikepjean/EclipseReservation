@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EclipseEventNotificationsService")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+df799dac76e342a939da023143eef4fa2238e282")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9bfea73db31699814ad6c4610f6855844b013094")]
 [assembly: System.Reflection.AssemblyProductAttribute("EclipseEventNotificationsService")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EclipseEventNotificationsService")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
