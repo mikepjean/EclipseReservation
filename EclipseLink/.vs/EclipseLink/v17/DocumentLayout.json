@@ -3,6 +3,50 @@
   "WorkspaceRootPath": "C:\\Users\\mikep\\source\\repos\\eclipse-service-enkvop\\EclipseLink\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{F02BED8C-D700-FA88-868A-BDC6D503F1A3}|..\\EclipseLinkUI\\EclipseLinkUI.esproj|c:\\users\\mikep\\source\\repos\\eclipse-service-enkvop\\eclipselinkui\\src\\app\\app.module.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F02BED8C-D700-FA88-868A-BDC6D503F1A3}|..\\EclipseLinkUI\\EclipseLinkUI.esproj|c:\\users\\mikep\\source\\repos\\eclipse-service-enkvop\\eclipselinkui\\src\\app\\eclipse-event\\eclipse-event.component.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F02BED8C-D700-FA88-868A-BDC6D503F1A3}|..\\EclipseLinkUI\\EclipseLinkUI.esproj|c:\\users\\mikep\\source\\repos\\eclipse-service-enkvop\\eclipselinkui\\src\\app\\eclipse-event\\eclipse-event.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F02BED8C-D700-FA88-868A-BDC6D503F1A3}|..\\EclipseLinkUI\\EclipseLinkUI.esproj|c:\\users\\mikep\\source\\repos\\eclipse-service-enkvop\\eclipselinkui\\src\\app\\eclipse-event\\eclipse-event.component.spec.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F02BED8C-D700-FA88-868A-BDC6D503F1A3}|..\\EclipseLinkUI\\EclipseLinkUI.esproj|c:\\users\\mikep\\source\\repos\\eclipse-service-enkvop\\eclipselinkui\\src\\app\\eclipse-event\\eclipse-event.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F02BED8C-D700-FA88-868A-BDC6D503F1A3}|..\\EclipseLinkUI\\EclipseLinkUI.esproj|c:\\users\\mikep\\source\\repos\\eclipse-service-enkvop\\eclipselinkui\\src\\app\\app.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F02BED8C-D700-FA88-868A-BDC6D503F1A3}|..\\EclipseLinkUI\\EclipseLinkUI.esproj|c:\\users\\mikep\\source\\repos\\eclipse-service-enkvop\\eclipselinkui\\src\\app\\app.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F02BED8C-D700-FA88-868A-BDC6D503F1A3}|..\\EclipseLinkUI\\EclipseLinkUI.esproj|c:\\users\\mikep\\source\\repos\\eclipse-service-enkvop\\eclipselinkui\\package.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F02BED8C-D700-FA88-868A-BDC6D503F1A3}|..\\EclipseLinkUI\\EclipseLinkUI.esproj|c:\\users\\mikep\\source\\repos\\eclipse-service-enkvop\\eclipselinkui\\tsconfig.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A5817B0-E23B-0CA4-BC5C-40F892E09AFE}|EclipseLink.csproj|c:\\users\\mikep\\source\\repos\\eclipse-service-enkvop\\eclipselink\\user\\userregistrationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A5817B0-E23B-0CA4-BC5C-40F892E09AFE}|EclipseLink.csproj|solutionrelative:user\\userregistrationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{308A508E-E431-4060-8699-292DCFE9A102}|..\\EclipseLinkDesktopUI\\EclipseLinkDesktopUI.csproj|c:\\users\\mikep\\source\\repos\\eclipse-service-enkvop\\eclipselinkdesktopui\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{308A508E-E431-4060-8699-292DCFE9A102}|..\\EclipseLinkDesktopUI\\EclipseLinkDesktopUI.csproj|c:\\users\\mikep\\source\\repos\\eclipse-service-enkvop\\eclipselinkdesktopui\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F02BED8C-D700-FA88-868A-BDC6D503F1A3}|..\\EclipseLinkUI\\EclipseLinkUI.esproj|c:\\users\\mikep\\source\\repos\\eclipse-service-enkvop\\eclipselinkui\\angular.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A5817B0-E23B-0CA4-BC5C-40F892E09AFE}|EclipseLink.csproj|c:\\users\\mikep\\source\\repos\\eclipse-service-enkvop\\eclipselink\\event\\eventcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A5817B0-E23B-0CA4-BC5C-40F892E09AFE}|EclipseLink.csproj|solutionrelative:event\\eventcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{4A5817B0-E23B-0CA4-BC5C-40F892E09AFE}|EclipseLink.csproj|c:\\users\\mikep\\source\\repos\\eclipse-service-enkvop\\eclipselink\\event\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4A5817B0-E23B-0CA4-BC5C-40F892E09AFE}|EclipseLink.csproj|solutionrelative:event\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -11,16 +55,8 @@
       "RelativeMoniker": "D:0:0:{4A5817B0-E23B-0CA4-BC5C-40F892E09AFE}|EclipseLink.csproj|solutionrelative:user\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4A5817B0-E23B-0CA4-BC5C-40F892E09AFE}|EclipseLink.csproj|c:\\users\\mikep\\source\\repos\\eclipse-service-enkvop\\eclipselink\\event\\eventcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4A5817B0-E23B-0CA4-BC5C-40F892E09AFE}|EclipseLink.csproj|solutionrelative:event\\eventcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{4A5817B0-E23B-0CA4-BC5C-40F892E09AFE}|EclipseLink.csproj|c:\\users\\mikep\\source\\repos\\eclipse-service-enkvop\\eclipselink\\event\\eventcreationrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4A5817B0-E23B-0CA4-BC5C-40F892E09AFE}|EclipseLink.csproj|solutionrelative:event\\eventcreationrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4A5817B0-E23B-0CA4-BC5C-40F892E09AFE}|EclipseLink.csproj|c:\\users\\mikep\\source\\repos\\eclipse-service-enkvop\\eclipselink\\user\\userregistrationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4A5817B0-E23B-0CA4-BC5C-40F892E09AFE}|EclipseLink.csproj|solutionrelative:user\\userregistrationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4A5817B0-E23B-0CA4-BC5C-40F892E09AFE}|EclipseLink.csproj|c:\\users\\mikep\\source\\repos\\eclipse-service-enkvop\\eclipselink\\event\\eventstore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -34,15 +70,167 @@
       "DocumentGroups": [
         {
           "DockedWidth": 100,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 5,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "eclipse-event.component.spec.ts",
+              "DocumentMoniker": "C:\\Users\\mikep\\source\\repos\\eclipse-service-enkvop\\EclipseLinkUI\\src\\app\\eclipse-event\\eclipse-event.component.spec.ts",
+              "RelativeDocumentMoniker": "..\\EclipseLinkUI\\src\\app\\eclipse-event\\eclipse-event.component.spec.ts",
+              "ToolTip": "C:\\Users\\mikep\\source\\repos\\eclipse-service-enkvop\\EclipseLinkUI\\src\\app\\eclipse-event\\eclipse-event.component.spec.ts",
+              "RelativeToolTip": "..\\EclipseLinkUI\\src\\app\\eclipse-event\\eclipse-event.component.spec.ts",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-04-24T17:57:31.333Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
+              "Title": "eclipse-event.component.html",
+              "DocumentMoniker": "C:\\Users\\mikep\\source\\repos\\eclipse-service-enkvop\\EclipseLinkUI\\src\\app\\eclipse-event\\eclipse-event.component.html",
+              "RelativeDocumentMoniker": "..\\EclipseLinkUI\\src\\app\\eclipse-event\\eclipse-event.component.html",
+              "ToolTip": "C:\\Users\\mikep\\source\\repos\\eclipse-service-enkvop\\EclipseLinkUI\\src\\app\\eclipse-event\\eclipse-event.component.html",
+              "RelativeToolTip": "..\\EclipseLinkUI\\src\\app\\eclipse-event\\eclipse-event.component.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-04-24T17:03:25.895Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "eclipse-event.component.ts",
+              "DocumentMoniker": "C:\\Users\\mikep\\source\\repos\\eclipse-service-enkvop\\EclipseLinkUI\\src\\app\\eclipse-event\\eclipse-event.component.ts",
+              "RelativeDocumentMoniker": "..\\EclipseLinkUI\\src\\app\\eclipse-event\\eclipse-event.component.ts",
+              "ToolTip": "C:\\Users\\mikep\\source\\repos\\eclipse-service-enkvop\\EclipseLinkUI\\src\\app\\eclipse-event\\eclipse-event.component.ts",
+              "RelativeToolTip": "..\\EclipseLinkUI\\src\\app\\eclipse-event\\eclipse-event.component.ts",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-04-24T17:03:29.06Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "eclipse-event.component.css",
+              "DocumentMoniker": "C:\\Users\\mikep\\source\\repos\\eclipse-service-enkvop\\EclipseLinkUI\\src\\app\\eclipse-event\\eclipse-event.component.css",
+              "RelativeDocumentMoniker": "..\\EclipseLinkUI\\src\\app\\eclipse-event\\eclipse-event.component.css",
+              "ToolTip": "C:\\Users\\mikep\\source\\repos\\eclipse-service-enkvop\\EclipseLinkUI\\src\\app\\eclipse-event\\eclipse-event.component.css",
+              "RelativeToolTip": "..\\EclipseLinkUI\\src\\app\\eclipse-event\\eclipse-event.component.css",
+              "ViewState": "AgIAAA4AAAAAAAAAAADwvxYAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-04-24T17:03:24.488Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "app.module.ts",
+              "DocumentMoniker": "C:\\Users\\mikep\\source\\repos\\eclipse-service-enkvop\\EclipseLinkUI\\src\\app\\app.module.ts",
+              "RelativeDocumentMoniker": "..\\EclipseLinkUI\\src\\app\\app.module.ts",
+              "ToolTip": "C:\\Users\\mikep\\source\\repos\\eclipse-service-enkvop\\EclipseLinkUI\\src\\app\\app.module.ts",
+              "RelativeToolTip": "..\\EclipseLinkUI\\src\\app\\app.module.ts",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-04-24T17:03:51.154Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "package.json",
+              "DocumentMoniker": "C:\\Users\\mikep\\source\\repos\\eclipse-service-enkvop\\EclipseLinkUI\\package.json",
+              "RelativeDocumentMoniker": "..\\EclipseLinkUI\\package.json",
+              "ToolTip": "C:\\Users\\mikep\\source\\repos\\eclipse-service-enkvop\\EclipseLinkUI\\package.json",
+              "RelativeToolTip": "..\\EclipseLinkUI\\package.json",
+              "ViewState": "AgIAABIAAAAAAAAAAIAwwB4AAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-24T17:11:53.024Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "tsconfig.json",
+              "DocumentMoniker": "C:\\Users\\mikep\\source\\repos\\eclipse-service-enkvop\\EclipseLinkUI\\tsconfig.json",
+              "RelativeDocumentMoniker": "..\\EclipseLinkUI\\tsconfig.json",
+              "ToolTip": "C:\\Users\\mikep\\source\\repos\\eclipse-service-enkvop\\EclipseLinkUI\\tsconfig.json",
+              "RelativeToolTip": "..\\EclipseLinkUI\\tsconfig.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-24T17:19:43.71Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "app.component.html",
+              "DocumentMoniker": "C:\\Users\\mikep\\source\\repos\\eclipse-service-enkvop\\EclipseLinkUI\\src\\app\\app.component.html",
+              "RelativeDocumentMoniker": "..\\EclipseLinkUI\\src\\app\\app.component.html",
+              "ToolTip": "C:\\Users\\mikep\\source\\repos\\eclipse-service-enkvop\\EclipseLinkUI\\src\\app\\app.component.html",
+              "RelativeToolTip": "..\\EclipseLinkUI\\src\\app\\app.component.html",
+              "ViewState": "AgIAAG8BAAAAAAAAAAAYwIUBAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-04-24T16:58:37.62Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "angular.json",
+              "DocumentMoniker": "C:\\Users\\mikep\\source\\repos\\eclipse-service-enkvop\\EclipseLinkUI\\angular.json",
+              "RelativeDocumentMoniker": "..\\EclipseLinkUI\\angular.json",
+              "ToolTip": "C:\\Users\\mikep\\source\\repos\\eclipse-service-enkvop\\EclipseLinkUI\\angular.json",
+              "RelativeToolTip": "..\\EclipseLinkUI\\angular.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-16T03:16:19.766Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UserRegistrationController.cs",
+              "DocumentMoniker": "C:\\Users\\mikep\\source\\repos\\eclipse-service-enkvop\\EclipseLink\\User\\UserRegistrationController.cs",
+              "RelativeDocumentMoniker": "User\\UserRegistrationController.cs",
+              "ToolTip": "C:\\Users\\mikep\\source\\repos\\eclipse-service-enkvop\\EclipseLink\\User\\UserRegistrationController.cs",
+              "RelativeToolTip": "User\\UserRegistrationController.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAxwBwAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T16:17:37.601Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\mikep\\source\\repos\\eclipse-service-enkvop\\EclipseLinkDesktopUI\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "..\\EclipseLinkDesktopUI\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\mikep\\source\\repos\\eclipse-service-enkvop\\EclipseLinkDesktopUI\\MainWindow.xaml.cs",
+              "RelativeToolTip": "..\\EclipseLinkDesktopUI\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T15:37:06.106Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\mikep\\source\\repos\\eclipse-service-enkvop\\EclipseLinkDesktopUI\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "..\\EclipseLinkDesktopUI\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\mikep\\source\\repos\\eclipse-service-enkvop\\EclipseLinkDesktopUI\\MainWindow.xaml",
+              "RelativeToolTip": "..\\EclipseLinkDesktopUI\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-17T15:37:07.73Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
               "Title": "EventStore.cs",
               "DocumentMoniker": "C:\\Users\\mikep\\source\\repos\\eclipse-service-enkvop\\EclipseLink\\Event\\EventStore.cs",
               "RelativeDocumentMoniker": "Event\\EventStore.cs",
@@ -50,12 +238,11 @@
               "RelativeToolTip": "Event\\EventStore.cs",
               "ViewState": "AgIAACYAAAAAAAAAAIAxwDwAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-14T16:16:52.629Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-14T16:16:52.629Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 16,
               "Title": "EventCreationRequest.cs",
               "DocumentMoniker": "C:\\Users\\mikep\\source\\repos\\eclipse-service-enkvop\\EclipseLink\\Event\\EventCreationRequest.cs",
               "RelativeDocumentMoniker": "Event\\EventCreationRequest.cs",
@@ -63,12 +250,11 @@
               "RelativeToolTip": "Event\\EventCreationRequest.cs",
               "ViewState": "AgIAAAgAAAAAAAAAAAAAwBIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-14T16:27:23.402Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-14T16:27:23.402Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 14,
               "Title": "Event.cs",
               "DocumentMoniker": "C:\\Users\\mikep\\source\\repos\\eclipse-service-enkvop\\EclipseLink\\Event\\Event.cs",
               "RelativeDocumentMoniker": "Event\\Event.cs",
@@ -76,12 +262,11 @@
               "RelativeToolTip": "Event\\Event.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAuwA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-14T16:26:53.659Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-14T16:26:53.659Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 15,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Users\\mikep\\source\\repos\\eclipse-service-enkvop\\EclipseLink\\User\\User.cs",
               "RelativeDocumentMoniker": "User\\User.cs",
@@ -89,33 +274,37 @@
               "RelativeToolTip": "User\\User.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-14T16:26:42.842Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-14T16:26:42.842Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "UserRegistrationController.cs",
-              "DocumentMoniker": "C:\\Users\\mikep\\source\\repos\\eclipse-service-enkvop\\EclipseLink\\User\\UserRegistrationController.cs",
-              "RelativeDocumentMoniker": "User\\UserRegistrationController.cs",
-              "ToolTip": "C:\\Users\\mikep\\source\\repos\\eclipse-service-enkvop\\EclipseLink\\User\\UserRegistrationController.cs",
-              "RelativeToolTip": "User\\UserRegistrationController.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAuwCUAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-14T16:17:37.601Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 13,
               "Title": "EventController.cs",
               "DocumentMoniker": "C:\\Users\\mikep\\source\\repos\\eclipse-service-enkvop\\EclipseLink\\Event\\EventController.cs",
               "RelativeDocumentMoniker": "Event\\EventController.cs",
               "ToolTip": "C:\\Users\\mikep\\source\\repos\\eclipse-service-enkvop\\EclipseLink\\Event\\EventController.cs",
               "RelativeToolTip": "Event\\EventController.cs",
-              "ViewState": "AgIAACAAAAAAAAAAAIAzwCkAAAAoAAAAAAAAAA==",
+              "ViewState": "AgIAACMAAAAAAAAAAAASwDEAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-14T16:15:42.227Z",
+              "WhenOpened": "2025-04-14T16:15:42.227Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 100,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "app.component.ts",
+              "DocumentMoniker": "C:\\Users\\mikep\\source\\repos\\eclipse-service-enkvop\\EclipseLinkUI\\src\\app\\app.component.ts",
+              "RelativeDocumentMoniker": "..\\EclipseLinkUI\\src\\app\\app.component.ts",
+              "ToolTip": "C:\\Users\\mikep\\source\\repos\\eclipse-service-enkvop\\EclipseLinkUI\\src\\app\\app.component.ts",
+              "RelativeToolTip": "..\\EclipseLinkUI\\src\\app\\app.component.ts",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-04-24T16:58:23.661Z",
               "EditorCaption": ""
             }
           ]
